@@ -144,7 +144,6 @@ public class ServerTCP {
 				if (line.startsWith(id)) {
 					return line;
 				}
-				
 			}			
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
